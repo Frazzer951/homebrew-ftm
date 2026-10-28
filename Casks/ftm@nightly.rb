@@ -2,9 +2,9 @@
 cask "ftm@nightly" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.17-nightly.20261028.52"
-  sha256 arm:   "e29611f39a6e575d225945000cee5c7b87b3150b83c959b208833ee4af30732c",
-         intel: "5e585f84d1e4367f8cae82d7384eb089d6256539f1969365cc5930f9747e5460"
+  version "0.1.17-nightly.20261028.53"
+  sha256 arm:   "d597feef0b870cad17081126aeed77933848e572d70ca66f3068ac3d726555e9",
+         intel: "e3e42f93a468ef5e5b50d587ac6eac9761d3622e10608a081d2cf1070eb5ab16"
 
   url "https://github.com/Frazzer951/ftm/releases/download/v#{version}/FTM.Nightly_#{version}_#{arch}.dmg"
   name "FTM Nightly"
