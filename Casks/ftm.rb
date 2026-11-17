@@ -2,9 +2,9 @@
 cask "ftm" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.17"
-  sha256 arm:   "ed10d3b3f13f819af8038640f3e9999314edbd40c039c732e17c125203150bcd",
-         intel: "4757eeeabd2d777d9c9b40747817e58b11fbb09749b22f20381efdec531c923e"
+  version "0.1.18"
+  sha256 arm:   "6fd341a249fe470fd4860533377d53b2214dbf6b32c474ce70d0aee4f00b03ed",
+         intel: "0d6907af527c5077052444c2e19ff78ead549862c2754228137b679acb7df810"
 
   url "https://github.com/Frazzer951/ftm/releases/download/v#{version}/FTM_#{version}_#{arch}.dmg"
   name "FTM"
